@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>影片</title>
+</head>
+
+<body>
+  <nav id="top" class="navbar navbar-expand-lg navbar-light col-12 bg_gray text-center">
+    <a class="navbar-brand" href="index.html"><img src="images/G2.PNG" alt="LOGO遺失" width="120"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">首頁 <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contice_me.html">聯絡我</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="vedeo.html">影片</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+            其他
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="images.html">圖像作品</a>
+
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container mt-3 text-center">
+    <div class="row">
+      <div class="col-12 text-white text-center bg_gray p-3">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/LkCqd6BIF3Y?si=nXfbhkP-hxlN7vrX"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <br>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Qp-eYONDZ5A?si=zfgh8ne4p6bDuFpv"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="sky_color">
+          <h2 style="color: aliceblue;">AR 應用</h2>
+          <table cellpadding="0" cellspacing="0" style="width: 100%;">
+            <tbody>
+              <tr>
+                <td><img src="images/sky_blue.gif" alt="圖片遺失" width="400px"></td>
+                <td><video src="images/sky_withe.mp4" width="400px" controls autoplay loop></video></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <link rel="stylesheet" type="text/css" href="csshake.min.css">
+  <!-- or from surge.sh -->
+  <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous">
+  </script>
+  <div class="back_top">
+    <a href="#top" class="move">⇪</a>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script>
+    $("a.move").on("click", function () {
+      var to = $(this).attr("href");
+      //alert(to);//
+      $("html, body, div").animate({
+        scrollTop: $(to).position().top
+      }, 800)
+    })
+  </script>
+</body>
+</html>

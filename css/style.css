@@ -1,0 +1,206 @@
+.bg_gray {
+        background-color: rgba(227, 124, 124, 0.873);
+}
+
+.navbar-light .navbar-brand {
+        color: aliceblue;
+}
+
+.navbar-light .navbar-nav .nav-link {
+        color: aliceblue;
+}
+
+.active {
+        background-color: rgb(255, 178, 178);
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+        color: #9b3939;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+        color: #9b3939;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+        color: #9b3939;
+}
+
+.contact ul {
+        list-style: none;
+        padding-left: 0;
+}
+
+.contact ul li {
+        display: inline-block;
+}
+
+.contact ul li a {
+        font-size: 2rem;
+        color: rgb(255, 212, 212);
+}
+
+.contact ul li a:hover {
+        color: #ab5555;
+}
+.peach{
+        padding: 30px 80px ;
+        display: flex;
+        align-content: center;
+        flex-wrap:wrap;
+}
+.E{
+        display: flex;
+        align-content: center;
+        flex-wrap:wrap;
+        justify-content: center;
+}
+.row3{
+        text-align: center;
+}
+.back_top {
+        display: block;
+        width: 60px;
+        height: 60px;
+        position: fixed;
+        right: 2%;
+        bottom: 2%;
+        border-radius: 10%;
+        background: #6c5492;
+        opacity: 0.6;
+}
+
+.back_top a {
+        font-size: 2.5rem;
+        text-decoration: none;
+        color: rgba(235, 181, 194, 0.959);
+}
+
+.back_top a:hover {
+        color: rgb(23, 27, 26);
+}
+
+body {
+        background-color: blanchedalmond;
+}
+
+.bg1 {
+        background-image: url(../images/SKY.JPG);
+}
+
+.bg2 {
+        background-image: url(../images/CCC.JPG);
+        
+}
+
+.bg3 {
+        background-image: url(../images/SKY2.JPG);
+}
+
+.color1 {
+        background-color: blanchedalmond;
+}
+
+.color2 {
+        background-color: rgb(167, 187, 218);
+}
+html,
+body {
+        height: 100%;
+        position: relative;
+}
+
+.fixed_bg,
+.infos {
+        height: 100%;
+}
+
+.fixed_bg {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
+
+.vcenter_1 {
+        position: absolute;
+        left: 50%;
+        top: 80%;
+        color: aliceblue;
+        transform: translateX(-50%)translateY(-50%);
+}
+
+.vcenter_2 {
+        position: absolute;
+        left: 50%;
+        top: 280%;
+        color: aliceblue;
+        transform: translateX(-50%)translateY(-50%);
+}
+
+.vcenter_3 {
+        position: absolute;
+        left: 50%;
+        top: 480%;
+        color: aliceblue;
+        transform: translateX(-50%)translateY(-50%);
+}
+.back_top {
+        display: block;
+        width: 60px;
+        height: 60px;
+        position: fixed;
+        right: 2%;
+        bottom: 2%;
+        border-radius: 10%;
+        background: rgb(211, 121, 121);
+        opacity: 0.6;
+}
+
+.back_top a {
+        font-size: 2.5rem;
+        text-decoration: none;
+        padding: 18px;
+        color: rgb(255, 230, 230);
+        line-height: 60px;
+}
+
+.back_top a:hover {
+        color: #9f4a4a;
+}
+
+li {
+        list-style-type: none;
+}
+.sky_color{
+        text-align: center;
+        padding: 10px;
+}
+.SKY5{
+        padding: 100px;
+}
+.SKY6{
+        padding: 100px;
+}
+.pcopyright{
+        text-align: center;
+        padding: 20px 30px 100px 30px;
+}
+.p{
+        text-align: center;
+        padding: 20px 0px 250px 0px;
+}
+.ppp{
+        transition: all 0.2s linear;
+        margin: auto
+    
+}
+.ppp:hover{
+        transform: scale(2.3);
+        transition: all 0.2s linear;
+}
